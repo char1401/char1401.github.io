@@ -22,3 +22,7 @@ ul {
 li:nth-child(odd){
     background-color: cornflowerblue;
 }
+
+.no-underline {
+    text-decoration: none;
+}

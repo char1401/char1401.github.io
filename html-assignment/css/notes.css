@@ -1,0 +1,12 @@
+.no-underline {
+    text-decoration: none;
+}
+
+a {
+    border: 6px dotted black;
+    background-color: cornflowerblue;
+}
+
+a:hover, a:focus {
+    background-color: rebeccapurple;
+}

@@ -26,3 +26,8 @@ li:nth-child(odd){
 .no-underline {
     text-decoration: none;
 }
+
+a {
+    border: 6px dotted black;
+    background-color: cornflowerblue;
+}

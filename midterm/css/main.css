@@ -22,3 +22,9 @@
 body {
     background-color: #aad4cf;
 }
+
+nav li{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+}

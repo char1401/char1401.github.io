@@ -1,30 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #aad4cf;
+}
+
+/* picture of starfish with heading overlapped on top */
 #splash {
-    text-align: center;
-    color: white;
     background-image: url('../images/lone-starfish-wide.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
     height: 341px;
 }
 
-#splash h1{
-    margin-top: 195px;
+#splash h1 {
+    position: absolute;
+    top: 195px;
+    left: 50%;
+    transform: translateX(-50%); /* moving text to the center of page */
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
+    color: white;
 }
 
 #wrapper {
     width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    background-color: rgba(212, 233, 231);
 }
 
-body {
-    background-color: #aad4cf;
+nav {
+    width: 100%;
 }
 
-nav li{
-    display: inline-block;
-    width: 120px;
-    height: 40px;
+/* ensures all nav items are in a row */
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    flex: 1;
+    border-right: 1px solid black;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
 }

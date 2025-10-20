@@ -18,7 +18,7 @@ html, body {
     display: block;
 }
 
-#splash h2 {
+#splash h1 {
     position: absolute;
     top: 195px;
     left: 50%;
@@ -26,7 +26,6 @@ html, body {
     margin: 0;
     font-size: 45px;
     color: white;
-    size: 2rem;
 }
 
 #wrapper {

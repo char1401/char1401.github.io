@@ -1,5 +1,5 @@
 html, body {
-    margin: 0;
+    margin: 0 0 5px 0;
     padding: 0;
     background-color: #aad4cf;
 }
@@ -18,21 +18,25 @@ html, body {
     display: block;
 }
 
-#splash h1 {
+#splash h2 {
     position: absolute;
     top: 195px;
     left: 50%;
     transform: translateX(-50%); /* moving text to the center of page */
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
     color: white;
+    size: 2rem;
 }
 
 #wrapper {
     width: 1024px;
     margin: 0 auto;
     background-color: rgba(212, 233, 231);
+}
+
+#content {
+    padding: 0px 5px 5px 5px;
 }
 
 nav {
@@ -70,3 +74,18 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* makes the paraghraph wrap beside the images */
+.float-left {
+    float:left;
+    width: 200px;
+    padding: 0px 20px 20px 0px;
+}
+
+article p {
+    padding-right: 20px;
+}
+
+/* makes it easier for me to change the fonts */
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+}

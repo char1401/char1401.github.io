@@ -46,3 +46,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* General build; colours: #c78c06, #ffe6ac, #222 and white, min-width media query for the screen size of 760px and above */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1200px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+

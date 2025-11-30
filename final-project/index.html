@@ -18,9 +18,9 @@
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <form action="">
+            <form action="thanks.html" method="post">
                 <label class="searchlabel">Search</label>
-                <input type="text">
+                <input type="text" id="search" name="search">
             </form>
         </nav>
     </header>
@@ -33,7 +33,7 @@
         </section>
          <!-- About Us section -->
         <section id="about" class="about-section">
-            <img src="images/about-us.jpg" atl="Ping-pong table">
+            <img src="images/about-us.jpg" alt="Ping-pong table">
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, voluptatem quisquam, magnam eveniet tempora, magni labore nisi minima quis rerum velit error hic repellendus. Ut suscipit quasi at expedita! Aperiam.</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quis fuga quo nostrum quisquam officiis, dignissimos quos vitae est non optio placeat, facere, assumenda laudantium aliquam? Eaque non molestias ipsum?</p>
@@ -73,7 +73,7 @@
             </div>
         </section>
         <!-- Our vision section -->
-        <section id="vision"class="vision-section">
+        <section id="vision" class="vision-section">
             <h2>Our Vision</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis ducimus beatae fugit, dolorum iure et quae, tenetur ut ab ad debitis reiciendis dolor, eaque commodi optio magnam eius perferendis? Quisquam.</p>
             <a href="#learn-more">Learn More</a>
@@ -97,18 +97,12 @@
         <!-- Contact Us section -->
         <section id="contact" class="contact-section">
             <h2>Contact US</h2>
-            <form id="contact-form">
-                <h3>Send us a message</h3>
-                <br>
-                <label for="fullname">Full Name</label>
-                <input id="fullname" type="text">
-                <br>
-                <label for="fullemail">Email</label>
-                <input id="fullemail" type="email">
-                <br>
-                <label for="fullmessage">Message</label>
-                <input id="fullmessae" type="text">
-                <br>
+            <br>
+            <h3>Send us a message</h3>
+            <form action="thanks.html" method="post" id="contact-form">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
                 <input type="submit" value="Send" class="submit">
             </form>
         </section>

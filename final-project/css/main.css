@@ -113,3 +113,10 @@ nav a:hover {
   border: none;
 }
 
+/* Section Organization */
+section img {
+  width: 100%;
+  display: block;
+}
+
+/* Home Section Styles */

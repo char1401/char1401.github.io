@@ -48,11 +48,9 @@ table {
 }
 
 /* General build; colours: #c78c06, #ffe6ac, #222 and white, min-width media query for the screen size of 760px and above */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  max-width: 1200px;
+#wrapper {
+  width: 1200px;
+  margin: auto;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -62,3 +60,15 @@ table {
   color: #222;
 }
 
+/* Header Styles */
+header {
+    background-color: #222;
+    color: #c78c06;
+}
+
+/* Nav Styles */
+header nav {
+  align-items: center;
+}
+
+/* Search Bar Styles */

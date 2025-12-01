@@ -68,9 +68,11 @@ header {
     text-align: center;
 }
 
+/* Will fix later */
 #logo {
   width: 120px;
   margin-bottom: 15px;
+  float: left;
 }
 
 /* Nav Styles */
@@ -91,6 +93,11 @@ nav a {
   text-decoration: none;
   font-weight: 600px;
   transition: 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #c78c06;
+  color: #222;
 }
 
 /* Search Bar Styles */

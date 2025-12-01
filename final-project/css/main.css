@@ -120,3 +120,17 @@ section img {
 }
 
 /* Home Section Styles */
+
+
+/* Footer Styles */
+footer {
+  background-color: #222;
+  color: #c78c06;
+  text-align: left;
+  padding: 25px 10px 15px 10px;
+  margin-top: 30px;
+}
+
+footer a{
+  color: #c78c06;
+}

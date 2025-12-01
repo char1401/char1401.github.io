@@ -102,5 +102,14 @@ nav a:hover {
 
 /* Search Bar Styles */
 #search{
-
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
 }
+
+#search input{
+  width: 95%;
+  padding: 10px;
+  border: none;
+}
+

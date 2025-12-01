@@ -47,10 +47,11 @@ table {
 	border-spacing: 0;
 }
 
-/* General build; colours: #c78c06, #ffe6ac, #222 and white, min-width media query for the screen size of 760px and above */
+/* General build; colours: #c78c06, #ffe6ac, #222 and white, min-width media query for the screen size of 760px and above, max-width: 1200px; */
 #wrapper {
-  width: 1200px;
+  max-width: 760px; /* The mobile layout width */
   margin: auto;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -63,12 +64,36 @@ table {
 /* Header Styles */
 header {
     background-color: #222;
-    color: #c78c06;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo {
+  width: 120px;
+  margin-bottom: 15px;
 }
 
 /* Nav Styles */
-header nav {
-  align-items: center;
+nav ul{
+  list-style: none;
+  padding: 0px;
+}
+
+nav li {
+  margin: 8px 0px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  background-color: #222;
+  color: #c78c06;
+  text-decoration: none;
+  font-weight: 600px;
+  transition: 0.3s ease;
 }
 
 /* Search Bar Styles */
+#search{
+
+}

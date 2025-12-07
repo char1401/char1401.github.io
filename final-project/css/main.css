@@ -310,12 +310,42 @@ form#search button:hover {
 }
 
 /* Our Team Section */
-.team-member {
-  margin-bottom: 30px;
+#team {
+  margin: 0px 10px 10px 10px;
 }
 
-.team-member img {
+#team h2{
+  margin-top: 30px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.team-member {
+  padding: 1.5rem 1rem;
+  background-color: #ffe6ac;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.team-member h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.bio-divider {
+  height: 2px;
+  background: #c78c06;
   width: 100%;
+  margin-bottom: 1rem;
+}
+
+.team-member p {
+  line-height: 1.6;
+  font-size: 15px;
 }
 
 /* Footer Styles */

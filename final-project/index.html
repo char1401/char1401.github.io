@@ -12,8 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Wrapper for controling everything in the body -->
-    <div id="wrapper">
+    <div>
         <!-- Header section -->
         <header>
             <img src="images/logo.png" alt="Three yellow stars" id="logo">
@@ -28,26 +27,25 @@
             </nav>
             <div id="search">
                 <input type="text" placeholder="Search">
-                <!-- could not find the image for the search icon so I imported one but not sure if I should use it... -->
-                <!-- <button type="button"><img src="images/search-icon.png" alt="magnifying glass"></button> -->
+                <span class="material-symbols-outlined">search</span>
             </div>
         </header>
         <main>
             <!-- Main/Home section -->
             <section id="home">
-                <!-- <img src="images/main-banner.jpg" alt="Office"> -->
+                <img src="images/main-banner.jpg" alt="Office">
                 <div class="home-section">
-                <h1>Welcome to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, modi minus. Aliquam dolorem et eveniet eaque, quos nostrum, voluptatibus cum alias a placeat harum odio, obcaecati voluptate. Aperiam, sed laudantium?</p>
-                <a href="#connect" class="cta-btn">Connect with us</a>
+                <h1 id="wrapper">Welcome to Three Star Media</h1>
+                <p id="wrapper">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, modi minus. Aliquam dolorem et eveniet eaque, quos nostrum, voluptatibus cum alias a placeat harum odio, obcaecati voluptate. Aperiam, sed laudantium?</p>
+                <a id="wrapper" href="#connect" class="cta-btn">Connect with us</a>
                 </div>
             </section>
             <!-- About Us section -->
             <section id="about" class="about-section">
                 <img src="images/about-us.jpg" alt="Ping-pong table">
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, voluptatem quisquam, magnam eveniet tempora, magni labore nisi minima quis rerum velit error hic repellendus. Ut suscipit quasi at expedita! Aperiam.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quis fuga quo nostrum quisquam officiis, dignissimos quos vitae est non optio placeat, facere, assumenda laudantium aliquam? Eaque non molestias ipsum?</p>
+                <h2 id="wrapper2">About Us</h2>
+                <p id="wrapper2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, voluptatem quisquam, magnam eveniet tempora, magni labore nisi minima quis rerum velit error hic repellendus. Ut suscipit quasi at expedita! Aperiam.</p>
+                <p id="wrapper2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quis fuga quo nostrum quisquam officiis, dignissimos quos vitae est non optio placeat, facere, assumenda laudantium aliquam? Eaque non molestias ipsum?</p>
             </section>
             <!-- Services section -->
             <section id="services" class="services-section">
@@ -95,55 +93,57 @@
                 <h2>Our team</h2>
                 <div class="team-member">
                     <img src="images/john.jpg" alt="Handsome man">
-                    <h3>John Doe</h3>
-                    <h4>CEO and Co-owner</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officia sequi dignissimos obcaecati consequuntur quidem ipsum incidunt, aut ipsa, provident eius at! Doloremque qui explicabo error dolores ex provident odio.</p>
+                    <h3 id="wrapper3">John Doe</h3>
+                    <h4 id="wrapper3">CEO and Co-owner</h4>
+                    <p id="wrapper3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officia sequi dignissimos obcaecati consequuntur quidem ipsum incidunt, aut ipsa, provident eius at! Doloremque qui explicabo error dolores ex provident odio.</p>
                 </div>
                 <div class="team-member">
                     <img src="images/bob.jpg" alt="Another handsome man">
-                    <h3>Bob Rite</h3>
-                    <h4>CFO and Co-owner</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam impedit ratione repellendus eos iste necessitatibus saepe corporis facilis? Minus dolorem sit reprehenderit ipsam commodi non cum nulla placeat blanditiis ad!</p>
+                    <h3 id="wrapper4">Bob Rite</h3>
+                    <h4 id="wrapper4">CFO and Co-owner</h4>
+                    <p id="wrapper4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam impedit ratione repellendus eos iste necessitatibus saepe corporis facilis? Minus dolorem sit reprehenderit ipsam commodi non cum nulla placeat blanditiis ad!</p>
                 </div>
             </section>
             <!-- Contact Us section -->
-            <section id="contact" class="contact-section">
-                <h2>Contact US</h2>
-                <br>
-                <h3>Send us a message</h3>
-                <form action="thanks.html" method="post" id="contact-form">
-                    <input type="text" name="name" placeholder="Your Name">
-                    <input type="email" name="email" placeholder="Your Email">
-                    <textarea name="message" placeholder="Your Message"></textarea>
-                    <input type="submit" value="Send" class="submit">
-                </form>
-            </section>
+            <section>
+                <div id="contact" class="contact-section">
+                    <h2>Contact US</h2>
+                    <br>
+                    <h3 id="wrapper5">Send us a message</h3>
+                    <form id="wrapper5" action="thanks.html" method="post" id="contact-form">
+                        <input type="text" name="name" placeholder="Your Name">
+                        <input type="email" name="email" placeholder="Your Email">
+                        <textarea name="message" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send" class="submit">
+                    </form>
+                </div>
             <!-- Hours of operation section -->
-            <section class="hours">
-                <h3>Hours of operation</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Days</th>
-                            <th>Hours</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Monday - Friday</td>
-                            <td>9 AM - 6 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday - Sunday</td>
-                            <td>Closed</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+                <div class="hours">
+                    <h3>Hours of operation</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Days</th>
+                                <th>Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday - Friday</td>
+                                <td>9 AM - 6 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday - Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             <!-- Location section -->
-            <section class="location">
-                <h3>Location</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d360320.1503357221!2d-76.32829044875771!3d45.12631197074153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1764455625693!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="location">
+                    <h3>Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d360320.1503357221!2d-76.32829044875771!3d45.12631197074153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1764455625693!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </section>
         </main> 
         <!-- Footer section -->

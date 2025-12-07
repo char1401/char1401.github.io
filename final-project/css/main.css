@@ -254,6 +254,60 @@ form#search button:hover {
 }
 
 /* Our Vision Section */
+#vision {
+  color: white;
+  position: relative;
+  margin: 30px 0px;
+}
+
+.image-wrapper{
+  height: 300px;
+}
+
+#vision img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.vision-section {
+  position: absolute;
+  top: 20px;
+  bottom: 10px;
+  margin-left: 15px;
+}
+
+.vision-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.vision-section p {
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.vision-btn {
+  display: inline-block;
+  background: rgba(0, 20, 40, 0.9);
+  padding: 2rem 3rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: 2px solid #c78c06;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.vision-btn::after {
+  content: "▶";
+  margin-left: 12px;
+  position: relative;
+  top: 1px;
+}
 
 /* Our Team Section */
 .team-member {

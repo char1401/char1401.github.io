@@ -184,6 +184,23 @@ form#search button:hover {
 }
 
 /* About Us Section */
+.about-section {
+  background-color: #ffe6ac;
+  padding: 15px;
+}
+
+.about-section h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1.5rem 0 1rem;
+}
+
+.about-section p {
+  margin-bottom: 1rem;
+  color: #222;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
 
 /* Our Services Section */
 

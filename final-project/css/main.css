@@ -48,75 +48,93 @@ table {
 }
 
 /* General build; colours: #c78c06, #ffe6ac, #222 and white, min-width media query for the screen size of 760px and above, max-width: 1200px; */
-#wrapper {
-  max-width: 760px; /* The mobile layout width */
-  margin: auto;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-  background-color: white;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
   color: #222;
+  background: #fff;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Header Styles */
 header {
-    background-color: #222;
-    padding: 20px;
-    text-align: center;
+  background: #222;
+  color: white;
+  padding: 10px;
 }
 
-/* Will fix later */
+/* Top Yellow Box */
+.yellow {
+  background: #c78c06;
+  padding: 20px;
+  text-align: center;
+}
+
 #logo {
-  width: 120px;
-  margin-bottom: 15px;
-  float: left;
+  max-width: 120px;
 }
 
 /* Nav Styles */
-nav ul{
+nav ul {
   list-style: none;
-  padding: 0px;
+  text-align: center;
 }
 
-nav li {
-  margin: 8px 0px;
-}
-
-nav a {
+nav ul li a {
   display: block;
-  padding: 10px;
-  background-color: #222;
   color: #c78c06;
-  text-decoration: none;
+  padding: 15px;
   font-weight: 600;
-  transition: 0.3s ease;
 }
 
-nav a:hover {
-  background-color: #c78c06;
+nav ul li a:hover {
+  background: #c78c06;
   color: #222;
 }
 
 /* Search Bar Styles */
-#search{
-  margin-top: 15px;
+#search {
   display: flex;
-  justify-content: center;
+  gap: 5px;
+  padding: 10px;
 }
 
-#search input{
-  width: 95%;
+#search input {
+  flex: 1;
   padding: 10px;
   border: none;
 }
 
-/* Section Organization */
-section img {
-  width: 100%;
-  display: block;
+/* I'll come back to this later, this is tough */
+form#search button {
+  width: 10%;
+  padding: 10px;
+  background: #222;
+  color: #c78c06;
+}
+
+form#search button:hover {
+  background: #c78c06;
+  color: #222;
 }
 
 /* Home Section Styles */

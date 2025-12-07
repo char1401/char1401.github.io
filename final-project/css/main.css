@@ -203,6 +203,55 @@ form#search button:hover {
 }
 
 /* Our Services Section */
+#services {
+  margin: 0px 10px 10px 10px;
+}
+
+.service {
+  background-color: #ffe6ac;
+}
+
+#services h2{
+  margin-top: 30px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#services h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 15px 10px;
+}
+
+#services p {
+  line-height: 1.2;
+  margin: 10px;
+}
+
+#services img {
+  padding-top: 15px;
+  background-color: white;
+}
+
+.service-btn {
+  display: inline-block;
+  background: #222;
+  color: white;
+  padding: 2rem 3rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  position: relative;
+  margin: 10px;
+}
+
+.service-btn::after {
+  content: "▶";
+  margin-left: 12px;
+  font-size: 0.9rem;
+  position: relative;
+  top: 1px;
+}
 
 /* Our Vision Section */
 

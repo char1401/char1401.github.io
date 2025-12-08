@@ -48,6 +48,7 @@ table {
 }
 
 /* General build; colours: #c78c06, #ffe6ac, #222 and white, min-width media query for the screen size of 760px and above, max-width: 1200px; */
+/* Costume CSS starts here */
 * {
   margin: 0;
   padding: 0;
@@ -113,23 +114,28 @@ nav ul li a:hover {
 
 /* Search Bar Styles */
 #search {
-  display: flex;
-  gap: 5px;
-  padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
 }
 
 #search input {
-  flex: 1;
-  padding: 10px;
-  border: none;
+    flex: 1;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
 }
 
-/* I'll come back to this later, this is tough */
+/* The icon of pure pain, agony and despair... */
 form#search button {
-  width: 10%;
-  padding: 10px;
   background: #222;
+  border: 1px solid #c78c06;
   color: #c78c06;
+  padding: 6px 15px;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
 
 form#search button:hover {

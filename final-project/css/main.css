@@ -409,6 +409,10 @@ form#search button:hover {
 }
 
 /* Hours Section */
+.hours {
+  margin: 0px 10px 10px 10px;
+}
+
 .hours h3 {
   font-size: 2rem;
   font-weight: 700;
@@ -434,6 +438,10 @@ form#search button:hover {
 }
 
 /* Location Section */
+.location {
+  margin: 0px 10px 10px 10px;
+}
+
 .location h3 {
   font-size: 2rem;
   font-weight: 700;
@@ -450,10 +458,12 @@ footer {
   background-color: #222;
   color: #c78c06;
   text-align: left;
-  padding: 25px 10px 15px 10px;
-  margin-top: 30px;
+  padding: 25px 10px 10px 10px;
 }
 
 footer a{
   color: #c78c06;
+  text-decoration: underline;
 }
+
+/* Media Query: Desktop starts here */

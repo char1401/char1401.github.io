@@ -596,18 +596,18 @@ padding-bottom: 5px;
 }
 
 #services p {
-    font-size: 0.9rem;
-    line-height: 1.45;
-    margin-bottom: 20px;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin-bottom: 20px;
 }
 
 .service-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 10px;
-    font-size: 0.95rem;
-    margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  font-size: 0.95rem;
+  margin: 10px;
 }
 
 /* Our Vision Section */

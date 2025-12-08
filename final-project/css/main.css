@@ -409,7 +409,31 @@ form#search button:hover {
 }
 
 /* Hours Section */
+.hours h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 
+.hours table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.hours th,
+.hours td {
+  border: 1px solid #222;
+  padding: 10px;
+  background: #ffe6ac;
+  font-size: 14px;
+}
+
+.hours td {
+  background-color: white;
+}
+
+/* Location Section */
 
 /* Footer Styles */
 footer {

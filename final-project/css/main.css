@@ -418,7 +418,7 @@ form#search button:hover {
 .hours table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .hours th,
@@ -434,6 +434,16 @@ form#search button:hover {
 }
 
 /* Location Section */
+.location h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.location iframe {
+  width: 100%;
+  border: none;
+}
 
 /* Footer Styles */
 footer {

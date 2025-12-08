@@ -304,7 +304,7 @@ form#search button:hover {
   text-decoration: none;
   font-weight: 600;
   font-size: 1.2rem;
-  border: 2px solid #c78c06;
+  border: 1px solid #c78c06;
   position: relative;
   margin-bottom: 15px;
 }
@@ -611,5 +611,26 @@ padding-bottom: 5px;
 }
 
 /* Our Vision Section */
+#vision img{
+  height: 250px;
+  object-fit: cover;
+}
+
+.vision-section {
+  padding: 0px 90px;
+}
+
+.vision-section h2 { 
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.vision-section p {
+  margin-bottom: 1rem;
+}
+
+.vision-btn {
+  padding: 25px 30px;
+}
 
 }

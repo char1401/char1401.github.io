@@ -115,18 +115,18 @@ nav ul li a:hover {
 
 /* Search Bar Styles */
 #search {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 #search input {
-    flex: 1;
-    padding: 12px;
-    font-size: 1rem;
-    border: none;
-    outline: none;
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
 }
 
 /* The icon of pure pain, agony and despair... */

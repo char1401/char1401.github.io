@@ -673,7 +673,35 @@ padding-bottom: 5px;
   margin: 0;
 }
 
+/* Contact Us Section */
+#contact-grid {
+  padding: 0px 90px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+}
 
+.contact-title {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  padding: 10px 0px;
+}
 
+#contact {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.hours {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+.location {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 130px 0px;
+}
 
 }

@@ -704,4 +704,9 @@ padding-bottom: 5px;
   margin: 130px 0px;
 }
 
+/* Footer Styles */
+footer p {
+padding: 0px 90px;
+}
+
 }

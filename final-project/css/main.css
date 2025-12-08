@@ -480,4 +480,50 @@ div {
   max-width: 1200px;
 }
 
+/* Header Section aka the most painful part possibly, I will come back to it */
+
+/* Home Section */
+#home {
+  position: relative;
+}
+
+.home-image{
+  height: 500px;
+}
+
+#home img{
+  height: 100%;
+  object-fit: cover;
+}
+
+#home h1 {
+  font-size: 65px;
+}
+
+#home p {
+  font-size: 13px;
+}
+
+.text-block {
+  top: 10%;
+  left: 8%;
+  right: auto;
+  width: 85%;
+}
+
+.text-block h1 {
+  font-size: 3rem;
+}
+
+.text-block p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.cta-btn {
+  padding: 20px 25px;
+  font-size: 1rem;
+}
+
+
 }

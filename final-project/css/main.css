@@ -480,7 +480,36 @@ div {
   max-width: 1200px;
 }
 
-/* Header Section aka the most painful part possibly, I will come back to it */
+/* Header Section */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 90px 10px 20px;
+}
+
+.yellow {
+  padding: 0;
+}
+
+#logo {
+  max-width: 100px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li a {
+  padding: 20px 30px;
+  font-size: 1.1rem;
+}
+
+#search {
+  max-width: 300px;
+}
 
 /* Home Section */
 #home {

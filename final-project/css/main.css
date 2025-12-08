@@ -497,7 +497,7 @@ div {
 }
 
 #home h1 {
-  font-size: 65px;
+  font-size: 70px;
 }
 
 #home p {
@@ -517,7 +517,7 @@ div {
 
 .text-block p {
   font-size: 1.1rem;
-  margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 .cta-btn {
@@ -525,5 +525,26 @@ div {
   font-size: 1rem;
 }
 
+/* About Us Section */
+.about-section {
+  padding: 15px 90px;
+}
+
+.about-section img {
+  float: left;
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+  padding: 0px 10px;
+}
+
+.about-section h2 {
+ margin: 0;
+}
+
+.about-section p {
+font-size: 14px;
+padding-bottom: 5px;
+}
 
 }
